@@ -8,10 +8,10 @@ class SgpaCalculator implements ActionListener
     // ComboBoxes for selecting grades of each subject
     JComboBox t1, t2, t3, t4, t5, t6, t7, t8, t9;
 
-    // TextField to display CGPA result
+    // TextField to display SGPA result
     JTextField y;
 
-    // Button to calculate CGPA
+    // Button to calculate SGPA
     JButton b1;
 
     // Constructor to design the GUI
@@ -50,7 +50,7 @@ class SgpaCalculator implements ActionListener
         t9 = new JComboBox(p);
 
         // Button and result TextField
-        b1 = new JButton("CGPA");
+        b1 = new JButton("SGPA");
         y = new JTextField();
         y.setEditable(false);   // Result should not be edited by user
 
@@ -111,10 +111,10 @@ class SgpaCalculator implements ActionListener
             to  += c[i];
         }
 
-        // Calculate CGPA
+        // Calculate SGPA
         double cg = sum / to;
 
-        // Round off CGPA to 2 decimal places
+        // Round off SGPA to 2 decimal places
         String sp = String.format("%.2f", cg);
 
         // Display result
@@ -127,5 +127,6 @@ class SgpaCalculator implements ActionListener
         new SgpaCalculator();
     }
 }
+
 
 
