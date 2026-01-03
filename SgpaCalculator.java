@@ -2,8 +2,8 @@ import javax.swing.*;          // Swing components
 import java.awt.*;             // Layouts and Color
 import java.awt.event.*;       // Event handling
 
-// CGPA Calculator class
-class CgpaCalculator implements ActionListener
+// SGPA Calculator class
+class SgpaCalculator implements ActionListener
 {
     // ComboBoxes for selecting grades of each subject
     JComboBox t1, t2, t3, t4, t5, t6, t7, t8, t9;
@@ -15,7 +15,7 @@ class CgpaCalculator implements ActionListener
     JButton b1;
 
     // Constructor to design the GUI
-    CgpaCalculator()
+    SgpaCalculator()
     {
         // Create main frame
         JFrame f = new JFrame("CGPA CALCULATOR");
@@ -124,6 +124,7 @@ class CgpaCalculator implements ActionListener
     // Main method
     public static void main(String[] args)
     {
-        new CgpaCalculator();
+        new SgpaCalculator();
     }
 }
+
