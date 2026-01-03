@@ -14,7 +14,8 @@ How to Run:
 
 ## Application Screenshot
 
-![SGPA Calculator UI](Sgpa.png)
+![SGPA Calculator UI](SGPA.png)
+
 
 
 
