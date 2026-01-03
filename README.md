@@ -1,18 +1,19 @@
-CGPA Calculator using Java Swing
+SGPA Calculator using Java Swing
 
-A GUI-based Java Swing application to calculate CGPA using subject credits and grades.
+A GUI-based Java Swing application to calculate SGPA using subject credits and grades.
 
 Features:
-- Credit-based CGPA calculation
+- Credit-based SGPA calculation
 - Java Swing GUI
 - Input validation
 - Clear/reset functionality
 
 How to Run:
-1. javac CGPACalculator.java
-2. java CGPACalculator
+1. javac SGPACalculator.java
+2. java SGPACalculator
 
 ## Application Screenshot
 
-![CGPA Calculator UI](cgpa.png)
+![SGPA Calculator UI](Sgpa.png)
+
 
